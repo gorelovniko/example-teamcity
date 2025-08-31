@@ -15,7 +15,10 @@
           <param name="userSettingsSelection" value="userSettingsSelection:default" />
         </parameters>
       </runner>
-      <runner id="clean_test" name="New build step" type="Maven2">
+      <runner id="clean_test" name="clean_test" type="Maven2">
+        <conditions>
+          <does-not-contain name="teamcity.build.branch" value="master" />
+        </conditions>
         <parameters>
           <param name="goals" value="clean test" />
           <param name="localRepoScope" value="agent" />
