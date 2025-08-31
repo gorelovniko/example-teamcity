@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="0a9b3279-fb7a-4d8a-a7bf-2f4127b44782" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
-  <name>Build</name>
+  <name>NetologyBuild</name>
   <description />
   <settings>
     <vcs-settings>
